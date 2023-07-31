@@ -15,7 +15,7 @@ public class main {
         System.out.println("[C] Result: " + c_result);
 
         // [D]
-        boolean d_result = 6 > 6 ^ !(true && true);  // 6 > 6 false , con lo xor sempre false poi not true quindi è TRUE
+        boolean d_result = 6 > 6 ^ !(true && true);  // 6 > 6 false , lo xor tra false e not true restituisce FALSE
         System.out.println("[D] Result: " + d_result);
     }
 }
